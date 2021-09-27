@@ -1,9 +1,4 @@
-export default function counterReducer(
-	state = {
-	  clicks: 0
-	},
-	action
-  ) {
+export default function counterReducer(state = {clicks: 0}, action) {
 	console.log(action);
 	switch (action.type) {
 	  case 'INCREASE_COUNT':
